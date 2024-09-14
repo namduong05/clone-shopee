@@ -62,6 +62,11 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+    :root {
+        --header-height: 52px;
+        --navbar-height: 0px;
+    }
+
     .hide-on-mobile {
         display: none;
     }
