@@ -938,6 +938,10 @@
     font-size: 14px;
 }
 
+.header__sort-link.header__sort-link--active {
+    color: var(--primary-color);
+}
+
 .header__sort-item:last-child {
     border-right: none;
 }
